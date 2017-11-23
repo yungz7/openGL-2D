@@ -1591,7 +1591,8 @@ void finalScene(){
 void display(){
 	glClear(GL_COLOR_BUFFER_BIT);
 	glutIdleFunc(idle);
-	
+
+	/*
 	if(count >= 0 && count < 1300){	//(0-650: 15-16 seconds) !0-1100: 27-28 seconds
 		scene1();
 	}
@@ -1601,7 +1602,8 @@ void display(){
 	if(count >= 2500 ){
 		finalScene();
 	}
-	
+	*/
+
 	glFlush();
 	glutSwapBuffers();
 }
